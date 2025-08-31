@@ -1,4 +1,3 @@
-# algo-efficiency-mini-project-himanshi
 # 🚀 Algorithm Efficiency Mini Project
 # Lab Assignment 1 — Analyzing and Visualizing Recursive Algorithm Efficiency
 
@@ -36,3 +35,5 @@ algo-efficiency-mini-project-himanshi
 **Project:** algo-efficiency-mini-project-himanshi
 **Author:** Himanshi 
 **Date:** 01 September 2025
+
+
