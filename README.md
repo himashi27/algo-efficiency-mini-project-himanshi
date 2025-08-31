@@ -1,5 +1,6 @@
 # algo-efficiency-mini-project-himanshi
 # 🚀 Algorithm Efficiency Mini Project
+# Lab Assignment 1 — Analyzing and Visualizing Recursive Algorithm Efficiency
 
 This project explores **algorithm efficiency** by implementing and analyzing:
 - Fibonacci (Recursive & Iterative)
@@ -31,3 +32,7 @@ algo-efficiency-mini-project-himanshi
 - Matplotlib Docs: https://matplotlib.org/
 - Memory Profiler: https://pypi.org/project/memory-profiler/
 
+**Course:** ENCA351 — Lab Assignment 1  
+**Project:** algo-efficiency-mini-project-priyanshu  
+**Author:** Himanshi 
+**Date:** 01 September 2025
