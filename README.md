@@ -33,6 +33,6 @@ algo-efficiency-mini-project-himanshi
 - Memory Profiler: https://pypi.org/project/memory-profiler/
 
 **Course:** ENCA351 — Lab Assignment 1  
-**Project:** algo-efficiency-mini-project-priyanshu  
+**Project:** algo-efficiency-mini-project-himanshi
 **Author:** Himanshi 
 **Date:** 01 September 2025
