@@ -1,0 +1,11 @@
+# Core Python Libraries for Graph Algorithm Implementation
+numpy
+
+# Profiling Tools
+memory_profiler
+
+# Visualization Library
+matplotlib
+
+# Optional (for handling large graphs or additional features)
+networkx
