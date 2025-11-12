@@ -1,75 +1,81 @@
-Lab Assignment 3 —  Graph Algorithms in Real-Life Applications
+💻 Lab Assignment 3 — Graph Algorithms in Real-Life Applications
 
-🧠Overview
+🧠 Overview
 
-This project demonstrates the use of fundamental graph algorithms in real-world contexts, including social networks, navigation systems, disaster response, and infrastructure optimization.
+This project demonstrates how fundamental graph algorithms power real-world systems — from social networks and navigation to disaster response and infrastructure optimization.
 
-It implements and analyzes four classical graph algorithms — BFS/DFS, Bellman-Ford, Dijkstra, and MST — to solve practical, real-life problems.
+It implements and analyzes four classical algorithms — BFS / DFS, Bellman-Ford, Dijkstra, and MST (Prim’s / Kruskal’s) — to solve practical, real-life problems through efficient Python implementations, profiling, and visualization.
 
-| **Problem**                      | **Algorithm**            | **Time Complexity** | **Real-World Application**  | **Objective**                                      |
-| -------------------------------- | ------------------------ | ------------------- | --------------------------- | -------------------------------------------------- |
-| Social Network Friend Suggestion | BFS / DFS                | O(V + E)            | Social Media                | Suggest mutual friends                             |
-| Google Maps Route Finder         | Bellman-Ford             | O(V × E)            | Navigation Systems          | Compute shortest routes (handles negative weights) |
-| Emergency Response System        | Dijkstra’s               | O(E log V)          | Disaster Management         | Find fastest routes in positive-weight maps        |
-| Network Cable Installation       | MST (Prim’s / Kruskal’s) | O(E log V)          | Infrastructure & Networking | Minimum cost to connect all nodes                  |
+📊 Problem Summary
+| 🧩 **Problem**                       | ⚙️ **Algorithm**         | ⏱ **Time Complexity** | 🌍 **Application Domain**   | 🎯 **Objective**                                   |
+| ------------------------------------ | ------------------------ | --------------------- | --------------------------- | -------------------------------------------------- |
+| **Social Network Friend Suggestion** | BFS / DFS                | O(V + E)              | Social Media                | Suggest mutual friends                             |
+| **Google Maps Route Finder**         | Bellman-Ford             | O(V × E)              | Navigation Systems          | Compute shortest routes (handles negative weights) |
+| **Emergency Response System**        | Dijkstra’s               | O(E log V)            | Disaster Management         | Find fastest routes in positive-weighted maps      |
+| **Network Cable Installation**       | MST (Prim’s / Kruskal’s) | O(E log V)            | Infrastructure & Networking | Minimum cost to connect all nodes                  |
 
-⚙️Implementation Details
+⚙️ Implementation Details
 
 Each problem includes:
 
-Graph Modeling: Representation using adjacency lists or edge lists.
+Graph Modeling: Adjacency-list / edge-list representation.
 
-Algorithm Design: Efficient implementation using core Python data structures.
+Algorithm Design: Clean, efficient Python logic using standard data structures.
 
-Profiling: Time and memory usage measurement using time and memory_profiler.
+Profiling: Execution-time and memory tracking with time and memory_profiler.
 
-Visualization: Optional plots using matplotlib for time vs. nodes/edges.
+Visualization: Optional matplotlib plots (execution time vs nodes/edges).
 
-Analysis: Complexity discussion and scalability commentary.
+Analysis: Complexity and scalability discussion for each algorithm.
 
-💭Reflections
+💭 Reflections
 
-Real-World Contexts Influence Algorithm Choice:
-Each domain’s requirements directly map to the algorithm’s characteristics:
+🔹 Real-World Context Influence
 
-Social media → mutual links → BFS/DFS
+Each application domain naturally maps to a specific algorithm:
 
-Navigation with negative roads → Bellman-Ford
+🧑‍🤝‍🧑 Social Media → mutual connections → BFS / DFS
 
-Disaster routing → positive weights → Dijkstra
+🗺️ Navigation Systems → possible negative routes → Bellman-Ford
 
-Infrastructure → minimal cost connection → MST
+🚑 Disaster Routing → positive travel times → Dijkstra
 
-Performance Profiling:
-Execution times align with theoretical complexities:
+🏗️ Infrastructure Design → minimal connection cost → MST
 
-BFS/DFS → Linear with V + E
+🔹 Performance Profiling
 
-Bellman-Ford → Increases linearly with E × V
+Empirical results align with theoretical complexities:
 
-Dijkstra → Faster for sparse graphs
+| Algorithm              | Growth Trend    | Observation                                    |
+| ---------------------- | --------------- | ---------------------------------------------- |
+| **BFS / DFS**          | Linear O(V + E) | Scales efficiently with network size           |
+| **Bellman-Ford**       | Linear in E × V | Handles negative weights safely                |
+| **Dijkstra**           | O(E log V)      | Very fast for sparse, positive-weighted graphs |
+| **MST (Prim/Kruskal)** | O(E log V)      | Efficient for infrastructure optimization      |
 
-MST → Efficient with min-heaps (O(E log V))
+📚 References & Acknowledgments
 
-📚References & Acknowledgments
+📖 Cormen, Leiserson, Rivest & Stein (CLRS) – Introduction to Algorithms
 
-Textbook: Introduction to Algorithms by Cormen, Leiserson, Rivest, and Stein (CLRS)
+🐍 Python Docs: https://docs.python.org/3/
 
-Python Docs: https://docs.python.org/3/
+💡 Learning Resources: GeeksforGeeks | TutorialsPoint
 
-Graph Concepts: GeeksforGeeks, TutorialsPoint
-
-Tools Used:
+🧰 Tools Used:
 
 memory_profiler – runtime memory tracking
 
-matplotlib – visualizations
+matplotlib – data visualization
 
-time module – performance profiling
+time – execution profiling
 
-Faculty Guidance: Dr. Aarti Sangwan, Department of SOET, K.R. Mangalam University
+👩‍🏫 Faculty Guidance: Dr. Aarti Sangwan, Department of SOET, K.R. Mangalam University
 
-Course: ENCA351 — Lab Assignment 3
-Project: Graph Algorithms in Real-Life Applications
-Author: Himanshi 
-Date: 12 November 2025
+🧾 Project Metadata
+| Field          | Detail                                                        |
+| -------------- | ------------------------------------------------------------- |
+| **Course**     | ENCA 351 — Design and Analysis of Algorithms Lab              |
+| **Assignment** | Lab Assignment 3 — Graph Algorithms in Real-Life Applications |
+| **Author**     | 👩‍💻 **Himanshi**                                            |
+| **Date**       | 📅 12 November 2025                                           |
+
