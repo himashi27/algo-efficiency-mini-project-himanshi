@@ -1,6 +1,6 @@
 Lab Assignment 3 —  Graph Algorithms in Real-Life Applications
 
-Overview
+🧠Overview
 
 This project demonstrates the use of fundamental graph algorithms in real-world contexts, including social networks, navigation systems, disaster response, and infrastructure optimization.
 
@@ -13,7 +13,7 @@ It implements and analyzes four classical graph algorithms — BFS/DFS, Bellman-
 | Emergency Response System        | Dijkstra’s               | O(E log V)          | Disaster Management         | Find fastest routes in positive-weight maps        |
 | Network Cable Installation       | MST (Prim’s / Kruskal’s) | O(E log V)          | Infrastructure & Networking | Minimum cost to connect all nodes                  |
 
-Implementation Details
+⚙️Implementation Details
 
 Each problem includes:
 
@@ -27,7 +27,7 @@ Visualization: Optional plots using matplotlib for time vs. nodes/edges.
 
 Analysis: Complexity discussion and scalability commentary.
 
-Reflections
+💭Reflections
 
 Real-World Contexts Influence Algorithm Choice:
 Each domain’s requirements directly map to the algorithm’s characteristics:
@@ -51,7 +51,7 @@ Dijkstra → Faster for sparse graphs
 
 MST → Efficient with min-heaps (O(E log V))
 
-References & Acknowledgments
+📚References & Acknowledgments
 
 Textbook: Introduction to Algorithms by Cormen, Leiserson, Rivest, and Stein (CLRS)
 
